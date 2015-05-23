@@ -13,6 +13,9 @@
 		10110E521B113D5400C2EFC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10110E511B113D5400C2EFC9 /* Images.xcassets */; };
 		10110E551B113D5400C2EFC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10110E531B113D5400C2EFC9 /* LaunchScreen.xib */; };
 		10110E611B113D5400C2EFC9 /* swift_app_helpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10110E601B113D5400C2EFC9 /* swift_app_helpersTests.swift */; };
+		10110E6C1B113EC700C2EFC9 /* FormHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10110E6B1B113EC700C2EFC9 /* FormHelper.swift */; };
+		10110E6E1B113EDB00C2EFC9 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10110E6D1B113EDB00C2EFC9 /* AlertHelper.swift */; };
+		10110E701B113EF200C2EFC9 /* KeyboardScrollViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10110E6F1B113EF200C2EFC9 /* KeyboardScrollViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		10110E5A1B113D5400C2EFC9 /* swift-app-helpersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-app-helpersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10110E5F1B113D5400C2EFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10110E601B113D5400C2EFC9 /* swift_app_helpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_app_helpersTests.swift; sourceTree = "<group>"; };
+		10110E6B1B113EC700C2EFC9 /* FormHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormHelper.swift; path = "swift-app-helpers/FormHelper.swift"; sourceTree = "<group>"; };
+		10110E6D1B113EDB00C2EFC9 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = "swift-app-helpers/AlertHelper.swift"; sourceTree = "<group>"; };
+		10110E6F1B113EF200C2EFC9 /* KeyboardScrollViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardScrollViewManager.swift; path = "swift-app-helpers/KeyboardScrollViewManager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		10110E471B113D5400C2EFC9 /* swift-app-helpers */ = {
 			isa = PBXGroup;
 			children = (
+				10110E6A1B113E9600C2EFC9 /* swift-app-helpers */,
 				10110E4A1B113D5400C2EFC9 /* AppDelegate.swift */,
 				10110E4C1B113D5400C2EFC9 /* ViewController.swift */,
 				10110E4E1B113D5400C2EFC9 /* Main.storyboard */,
@@ -110,6 +117,16 @@
 				10110E5F1B113D5400C2EFC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10110E6A1B113E9600C2EFC9 /* swift-app-helpers */ = {
+			isa = PBXGroup;
+			children = (
+				10110E6B1B113EC700C2EFC9 /* FormHelper.swift */,
+				10110E6D1B113EDB00C2EFC9 /* AlertHelper.swift */,
+				10110E6F1B113EF200C2EFC9 /* KeyboardScrollViewManager.swift */,
+			);
+			name = "swift-app-helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10110E6E1B113EDB00C2EFC9 /* AlertHelper.swift in Sources */,
+				10110E6C1B113EC700C2EFC9 /* FormHelper.swift in Sources */,
 				10110E4D1B113D5400C2EFC9 /* ViewController.swift in Sources */,
 				10110E4B1B113D5400C2EFC9 /* AppDelegate.swift in Sources */,
+				10110E701B113EF200C2EFC9 /* KeyboardScrollViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
