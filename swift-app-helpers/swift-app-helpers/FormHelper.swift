@@ -8,7 +8,7 @@
 
 import Foundation
 
-class FormHelper {
+public class FormHelper {
     
     // @description validateEmail checks whether an email is valid based on a regex value and
     // as to whether it matches it or no

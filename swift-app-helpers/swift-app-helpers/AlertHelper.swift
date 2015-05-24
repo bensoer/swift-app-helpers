@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class AlertHelper: UIViewController {
+public class AlertHelper: UIViewController {
     
     // @description showAlert shows an alert to the screen with default basic settings. It is
     // intended to be used as a general prompt of either an error or of a task completing. The prompt
